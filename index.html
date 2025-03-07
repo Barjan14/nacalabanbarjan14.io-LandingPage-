@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 40px 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+        .container {
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            margin: 20px;
+            border: 2px solid rgba(114, 110, 110, 0.5);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            border: 2px solid rgba(114, 110, 110, 0.5);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .project a:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="barjan.jpg" alt="Profile Image" class="profile-img">
+        <h1>Bryle Jan M. Nacalaban</h1>
+        <p>BS in Information Technology</p>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Name: Bryle Jan M. Nacalaban.</p> 
+        <p>Age: 23 years old</p>
+        <p>Address: Blk 3, Puntod, Cagayan de Oro City.</p>   
+    </div>
+   
+    <div class="container">
+        <h2>Education</h2>
+        <p>Elementary: North City Central School</p> 
+        <p>HighSchool: Carmen National High School</p>
+        <p>SeniorHighSchool: PHINMA - Cagayan de Oro College (COC)</p>
+        <p>College: University of Science and Technology of Southern Philippines</p>   
+    </div>
+   
+   
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>HTML</h3>
+            <a href="https://barjan14.github.io/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>CSS</h3>
+            <a href="https://barjan14.github.io/cssbarjan14.github.io/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>SubjectTaken</h3>
+            <a href="https://barjan14.github.io/subjecttaken.io/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>SearchFeature</h3>
+            <a href="https://barjan14.github.io/Search-Feature.io/">View Project</a>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>Contact: <a href="bryle.jan14@gmail.com" style="color: #00bfff; text-decoration: none;">bryle.jan14@gmail.com.com</a></p>
+    </footer>
+</body>
+</html>
